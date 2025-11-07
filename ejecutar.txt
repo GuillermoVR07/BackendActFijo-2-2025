@@ -1,0 +1,16 @@
+Por favor, ejecuta los siguientes comandos en este orden exacto:
+
+   1. Crea las tablas en la base de datos de logs:
+         python manage.py migrate
+   1     python manage.py migrate --database=log_saas
+
+   2. Crea los permisos (si no lo has hecho ya):
+   1     python manage.py create_permissions
+
+   3. Finalmente, ejecuta el seeder:
+   1     python manage.py seed_data
+
+
+
+   USUARIO: admin_innovatech
+   CONTRASEÑA: admin123
